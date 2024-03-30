@@ -1,0 +1,5 @@
+docker run -d --rm -it --name ex1.4 ubuntu sh -c "while true; do echo 'Input website:'; read website; echo 'Searching..'; sleep 1; curl http://$website; done"
+docker exec -it ex1.4 bash
+apt-get update
+apt-get -y install curl
+docker attach ex1.4
