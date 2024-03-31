@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  hello-python:
+    container_name: hello-python
+    build: .
+    environment:
+      - SAMPLE=This is a different message

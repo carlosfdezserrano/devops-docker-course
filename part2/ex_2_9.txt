@@ -1,0 +1,3 @@
+I didn't make any changes to the original dockerfiles, nor to nginx.conf.
+I just modified REACT_APP_BACKEND_URL and REQUEST_ORIGIN environment variables
+in the docker-compose.yaml file.

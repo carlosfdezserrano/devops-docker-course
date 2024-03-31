@@ -1,0 +1,2 @@
+I have created a simple docker-compose file to my app. It builds the image and allows
+to change an environment variable that is printed.
