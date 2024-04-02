@@ -1,0 +1,16 @@
+FROM docker:latest
+
+WORKDIR /usr/src/app
+RUN apk update; apk add git; apk add --no-cache bash
+# Copy the script into the container
+COPY ex_3_3_script.sh .
+
+# Set executable permission for the script
+RUN chmod +x ex_3_3_script.sh
+
+# Define environment variables
+ENV DOCKER_USER=""
+ENV DOCKER_PWD=""
+
+# Execute the script as the entrypoint
+ENTRYPOINT ["./ex_3_3_script.sh"]

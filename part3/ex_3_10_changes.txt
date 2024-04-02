@@ -1,0 +1,7 @@
+App: express-app (from material-applications repository)
+Previous size: 914MB
+New size: 181MB
+
+Changes:
+    - Multi-stage build with a slim version of node
+    - Non root user

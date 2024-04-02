@@ -1,0 +1,6 @@
+Before:
+    - Frontend: 548MB
+    - Backend: 447MB
+After:
+    - Frontend: 480MB
+    - Backend: 447MB (No changes because it already uses alpine image)
